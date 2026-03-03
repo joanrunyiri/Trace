@@ -38,7 +38,7 @@ export default function SignupPage() {
             type="email"
             required
             className={sharedStyles.input}
-            placeholder="sayhello@ovelia.tech"
+            placeholder="joanrnyarua@gmail.com"
           />
 
           <label className={sharedStyles.label} htmlFor="password">
