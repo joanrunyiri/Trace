@@ -1,0 +1,37 @@
+:root {
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: var(--font-playfair), serif;
+  
+
+  --color-bg: #FDFDFD;
+  --color-text: #1A1F2B;
+  --color-text-light: #9CA3AF;
+  --color-accent: #6A7BA2;
+  --color-border: #F3F4F6;
+  --color-success: #10B981;
+  --color-error: #EF4444;
+  --color-card: #FFFFFF;
+  --color-input-bg: #F9FAFB;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background-color: black;
+  color: white;
+}
