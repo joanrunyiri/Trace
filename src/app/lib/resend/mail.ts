@@ -17,7 +17,7 @@ export async function sendProjectInvite({
   projectLink: string;
 }) {
   return await resend.emails.send({
-    from: `O-Check <${from}>`,
+    from: `Trace <${from}>`,
     to: [to],
     subject: `Project Initialized: ${projectName}`,
     react: InviteTemplate({ to, projectName, projectLink }),
@@ -34,7 +34,7 @@ export async function sendProjectUpdate({
   projectLink: string;
 }) {
   return await resend.emails.send({
-    from: `O-Check <${from}>`,
+    from: `Trace <${from}>`,
     to: [to],
     subject: `Project Initialized: ${projectName}`,
     react: UpdateTemplate({ to, projectName, projectLink }),
