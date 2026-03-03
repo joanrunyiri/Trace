@@ -47,7 +47,7 @@ export async function createProject(
       receiver_email: receiverEmail,
       target_completion: targetCompletion,
       project_link: projectLink,
-      isActive: "true",
+      isActive: true,
       user_id: user.id,
     },
   ]);
