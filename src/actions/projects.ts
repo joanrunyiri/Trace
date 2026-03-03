@@ -44,9 +44,9 @@ export async function createProject(
   const { error } = await supabase.from("projects").insert([
     {
       name,
-      receiverEmail,
-      targetCompletion,
-      projectLink: projectLink,
+      receiver_email: receiverEmail,
+      target_completion: targetCompletion,
+      project_link: projectLink,
     },
   ]);
 
