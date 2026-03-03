@@ -6,9 +6,9 @@ Built with: Next.js, TypeScript, Supabase
 
 ## Features
 
-Project creation with unique shareable client link
-Real time update posting and client commenting
-Email notifications on project creation and new updates
-Automatic data cleanup on project close
-No client account required, access via unique link only
-Built with multi-tenant licensing in mind
+- Project creation with unique shareable client link
+- Real time update posting and client commenting
+- Email notifications on project creation and new updates
+- Automatic data cleanup on project close
+- No client account required, access via unique link only
+- Built with multi-tenant licensing in mind

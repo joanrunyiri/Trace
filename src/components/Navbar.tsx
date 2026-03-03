@@ -34,7 +34,7 @@ export default function OveliaLayout() {
           color: "#6A7BA2",
         }}
       >
-        Ovelia Check
+        Trace
       </span>
 
       <div style={{ display: "flex", gap: "24px", alignItems: "center" }}>

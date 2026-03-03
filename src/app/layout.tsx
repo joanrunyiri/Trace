@@ -12,8 +12,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Ovelia Check",
-  description: "Luxurious intelligence, beautifully engineered.",
+  title: "Trace",
+  description: "",
 };
 
 export default function RootLayout({
