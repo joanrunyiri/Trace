@@ -47,6 +47,7 @@ export async function createProject(
       receiver_email: receiverEmail,
       target_completion: targetCompletion,
       project_link: projectLink,
+      user_id: user.id,
     },
   ]);
 
